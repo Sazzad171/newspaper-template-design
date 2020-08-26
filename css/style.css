@@ -848,7 +848,33 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) { .mobile-menu { display: block; } }
 
-@media only screen and (max-width: 767px) { .mobile-menu { display: block; } }
+@media only screen and (max-width: 767px) {
+    .footer-bottom-section {
+        text-align: center !important;
+    }
+    .footer-bottom-section .text-right {
+        text-align: center !important;
+    }
+    .header-section .full-search {
+        margin-bottom: 1rem !important;
+    }
+    .header-section .dropdown {
+        text-align: center !important;
+    }
+    .header-section .search-btn {
+        text-align: center;
+    }
+    .nav-top-logo {
+        text-align: center !important;
+    }
+    .nav-date {
+        text-align: center;
+        margin-bottom: 5px !important;
+    }
+    .menu-section-wrap {
+        display: block !important;
+    }
+    .mobile-menu { display: block; } }
 
 .mean-push { display: none; }
 
