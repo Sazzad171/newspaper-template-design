@@ -786,7 +786,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 .menu-section-wrap { position: relative; display: block; float: left; width: 100%; }
 
 /*-- Mobile Logo --*/
-.mobile-logo { text-align: center; padding: 0 70px; height: 50px; }
+.mobile-logo { text-align: right; padding: 0 0; height: 50px; }
 
 .mobile-logo a { max-width: 170px; display: inline-block; line-height: 50px; }
 
@@ -865,7 +865,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
         text-align: center;
     }
     .nav-top-logo {
-        text-align: center !important;
+        display: none !important;
     }
     .nav-date {
         text-align: center;
@@ -875,6 +875,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
         display: block !important;
     }
     .mobile-menu { display: block; } }
+
 
 .mean-push { display: none; }
 
