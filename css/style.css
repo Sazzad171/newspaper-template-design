@@ -66,7 +66,10 @@ ul { list-style: outside none none; margin: 0; padding: 0; }
 .bg-yellow { background-color: #ffc61c; }
 
 /*-- Container Width For Mobile Device --*/
-@media only screen and (max-width: 767px) { .container { width: 450px; } }
+@media only screen and (max-width: 767px) { 
+    .container { width: 450px; }
+
+}
 
 @media only screen and (max-width: 479px) { .container { width: 100%; } }
 
@@ -2362,3 +2365,133 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 .footer-bottom-section { border-top: 1px solid #343434; padding: 15px 0; /*-- Copyright --*/ }
 
 .footer-bottom-section .copyright { line-height: 30px; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; color: #cccccc; }
+
+/*Video Section */
+
+.video-hero .heading {
+    color: #121212;
+    padding: 1.5rem 0 .5rem;
+    margin: 0;
+  }
+  .video-hero .heading a:hover {
+    color: #121212 !important;
+  }
+  .video-hero .time {
+    color: #999;
+    font-size: 18px;
+  }
+  .video-hero .social-icon li {
+    display: inline-block;
+  }
+  .video-hero .social-icon li a {
+    display: block;
+    font-size: 15px;
+    color: #fff !important;
+    height: 37px;
+    width: 37px;
+    background: #343a40;
+    text-align: center;
+    border-radius: 50px;
+    margin: 0 7px;
+    line-height: 37px;
+  }
+  .video-hero .card-body {
+    padding: 10px;
+  }
+
+  /*Video Section End*/
+
+  /* corona update start */
+.corona-update .inner {
+    background: #000;
+    border-radius: 10px;
+}
+.corona-update .virus-heading {
+    background: url('../img/virus-logo.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.corona-update .virus-heading h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.corona-update .count-digit h5 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.corona-update .count-digit h1 {
+    font-size: 36px;
+}
+.corona-update .count-digit .total-cases h1 {
+    color: #e3b410;
+}
+.corona-update .count-digit .recoverd-cases h1 {
+    color: #25ad00;
+}   
+.corona-update .count-digit .death-cases h1 {
+    color: #d51e20;
+}
+.corona-update .district-cases .inner {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 8px;
+    margin: 5px;
+    background: #404040;
+}
+.corona-update .district-cases .inner .number {
+    margin-left: 5px;
+    color: #ffd02b;
+}
+.corona-update .bottom {
+    background: #272727;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.corona-update .bottom p {
+    color: #fff;
+}
+
+@media (max-width: 575px) {
+    .corona-update .virus-heading h2 {
+        font-size: 20px;
+        padding: 0 !important;
+    }
+    .corona-update .count-digit {
+        padding: 0 !important;
+    }
+    .corona-update .count-digit h5 {
+        font-size: 16px;
+    }
+    .corona-update .count-digit h1 {
+        font-size: 22px;
+    }
+}
+  /* corona update end */
+
+
+  /* shironam headline start */
+  .shironam {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      font-size: 18px;
+  }
+  .shironam .heading {
+      background: #B30F0F;
+      color: #fff;
+      padding: 5px 10px;
+      width: 160px;
+  }
+  .shironam .news  {
+    background: #F0F8FF;
+    color: #1F2024;
+    width: calc(100% - 160px);
+    padding: 5px 0;
+  }
+  /* shironam headline end */
