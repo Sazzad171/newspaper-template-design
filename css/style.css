@@ -1600,7 +1600,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 /*  5.  Single Post Details
 /*----------------------------------------*/
 /*-- Post Header --*/
-.post-header { padding: 50px 30px; background-size: cover; background-position: center right; background-repeat: no-repeat; /*-- Meta --*/ /*-- Title --*/ }
+.post-header { padding: 30px 30px; background-size: cover; background-position: center right; background-repeat: no-repeat; /*-- Meta --*/ /*-- Title --*/ }
 
 @media only screen and (max-width: 767px) { .post-header { padding-bottom: 40px; } }
 
@@ -2454,6 +2454,10 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 }
 .corona-update .bottom p {
     color: #fff;
+}
+.fb-page {
+    max-width: 100%;
+    max-height: 300px;
 }
 
 @media (max-width: 575px) {
