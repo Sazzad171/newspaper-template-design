@@ -2459,6 +2459,9 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
     max-width: 100%;
     max-height: 300px;
 }
+.header-section .nav-top-logo img {
+    width: 65%;
+}
 
 @media (max-width: 575px) {
     .corona-update .virus-heading h2 {
