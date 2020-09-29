@@ -2499,8 +2499,3 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
     padding: 5px 0;
   }
   /* shironam headline end */
-
-  .footerContentspaceBetween {
-      display: flex;
-      justify-content: space-between;
-  }
