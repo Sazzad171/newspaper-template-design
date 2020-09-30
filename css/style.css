@@ -910,7 +910,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 .mobile-menu-2 .mean-bar .meanmenu-reveal.meanclose .menu-close::before, .mobile-menu-2 .mean-bar .meanmenu-reveal.meanclose .menu-close::after { background-color: #1f2024; }
 
 /*-- Mean Nav --*/
-.mean-nav { background-color: transparent; margin-top: 0; }
+.mean-nav { background-color: #009688; margin-top: 0; }
 
 .mean-nav ul li { padding-left: 0; margin: 0; }
 
