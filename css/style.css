@@ -2481,11 +2481,11 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
         font-size: 12px !important;
     }
     .shironam .heading {
-        width: 97px !important;
+        width: 55px !important;
         padding: 8px 10px !important;
     }
     .shironam .news  {
-        width: calc(100% - 97px) !important;
+        width: calc(100% - 55px) !important;
       }
       #fullNavBar {
           height: 60px !important;
@@ -2507,12 +2507,12 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
       background: #B30F0F;
       color: #fff;
       padding: 5px 10px;
-      width: 160px;
+      width: 70px;
   }
   .shironam .news  {
     background: #F0F8FF;
     color: #1F2024;
-    width: calc(100% - 160px);
+    width: calc(100% - 70px);
     padding: 5px 0;
   }
   /* shironam headline end */
