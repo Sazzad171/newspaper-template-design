@@ -793,7 +793,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 .mobile-logo a { max-width: 170px; display: inline-block; line-height: 50px; }
 
-.mobile-logo a img { width: 100%; }
+.mobile-logo a img { width: 43%; }
 
 /*-- Main Menu --*/
 .main-menu { /*-- Menu Style Two --*/ }
