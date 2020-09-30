@@ -793,7 +793,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 .mobile-logo a { max-width: 170px; display: inline-block; line-height: 50px; }
 
-.mobile-logo a img { width: 43%; }
+.mobile-logo a img { width: 55%; }
 
 /*-- Main Menu --*/
 .main-menu { /*-- Menu Style Two --*/ }
@@ -2481,11 +2481,14 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
         font-size: 12px !important;
     }
     .shironam .heading {
-        width: 107px !important;
+        width: 97px !important;
         padding: 8px 10px !important;
     }
     .shironam .news  {
-        width: calc(100% - 107px) !important;
+        width: calc(100% - 97px) !important;
+      }
+      #fullNavBar {
+          height: 60px !important;
       }
 
 }
