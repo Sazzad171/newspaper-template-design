@@ -803,7 +803,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 .main-menu nav { float: right;
     margin-right: 36px; }
 .main-menu .logo {
-    width: 80px;
+    width: 100px;
     height: auto;
 }
 
@@ -857,6 +857,12 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 .mobile-menu { width: 100%; float: left; display: none; position: relative; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) { .mobile-menu { display: block; } }
+
+@media (max-width: 991px) {
+    .footer-top-section .logo img {
+        width: 50%;
+    }
+}
 
 @media only screen and (max-width: 767px) {
     .footer-bottom-section {
@@ -2238,7 +2244,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 /*--
     Footer Top
 ----------------------------------------*/
-.footer-top-section { padding: 100px 105px 40px; }
+.footer-top-section { padding: 30px 105px 30px; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) { .footer-top-section { padding-left: 15px; padding-right: 15px; } }
 
@@ -2488,11 +2494,11 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
         font-size: 12px !important;
     }
     .shironam .heading {
-        width: 97px !important;
+        width: 55px !important;
         padding: 8px 10px !important;
     }
     .shironam .news  {
-        width: calc(100% - 97px) !important;
+        width: calc(100% - 55px) !important;
       }
       #fullNavBar {
           height: 60px !important;
@@ -2514,12 +2520,12 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
       background: #B30F0F;
       color: #fff;
       padding: 5px 10px;
-      width: 160px;
+      width: 70px;
   }
   .shironam .news  {
     background: #F0F8FF;
     color: #1F2024;
-    width: calc(100% - 160px);
+    width: calc(100% - 70px);
     padding: 5px 0;
   }
   /* shironam headline end */
