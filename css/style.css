@@ -2231,7 +2231,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 /*--
     Footer Top
 ----------------------------------------*/
-.footer-top-section { padding: 100px 105px 40px; }
+.footer-top-section { padding: 30px 105px 30px; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) { .footer-top-section { padding-left: 15px; padding-right: 15px; } }
 
