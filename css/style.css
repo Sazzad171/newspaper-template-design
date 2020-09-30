@@ -57,7 +57,7 @@ ul { list-style: outside none none; margin: 0; padding: 0; }
 
 .bg-light-gray { background-color: #f6f6f6; }
 
-.bg-dark { background-color: #1f2024 !important; }
+.bg-dark { background-color: #009688 !important; }
 
 .bg-dark-gray { background-color: #2d2d2d; }
 
@@ -2477,6 +2477,17 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
     .corona-update .count-digit h1 {
         font-size: 22px;
     }
+    .shironam {
+        font-size: 12px !important;
+    }
+    .shironam .heading {
+        width: 107px !important;
+        padding: 8px 10px !important;
+    }
+    .shironam .news  {
+        width: calc(100% - 107px) !important;
+      }
+
 }
   /* corona update end */
 
