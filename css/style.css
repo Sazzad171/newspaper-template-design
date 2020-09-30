@@ -807,6 +807,10 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
     height: auto;
 }
 
+.footer-top-section .logo img {
+    width: 40%;
+}
+
 .main-menu nav > ul { float: left; }
 
 .main-menu nav > ul > li { display: block; float: left; margin-right: 30px; /*-- Active & Hover Menu Color --*/ /*-- DropDown Arrow --*/ /*-- Sub Menu --*/ }
@@ -858,11 +862,6 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) { .mobile-menu { display: block; } }
 
-@media (max-width: 991px) {
-    .footer-top-section .logo img {
-        width: 50%;
-    }
-}
 
 @media only screen and (max-width: 767px) {
     .footer-bottom-section {
