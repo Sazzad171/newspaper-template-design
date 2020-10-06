@@ -467,7 +467,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity: 1; -ms-fi
 -----------------------------------------*/
 #scrollUp { width: 40px; height: 40px; background-color: #00c8fa; color: #ffffff; right: 40px; bottom: 40px; text-align: center; overflow: hidden; }
 
-@media only screen and (max-width: 767px) { #scrollUp { display: none !important; } }
+@media only screen and (max-width: 767px) { #scrollUp { display: block !important; } }
 
 #scrollUp i { display: block; line-height: 40px; font-size: 24px; }
 
@@ -1600,7 +1600,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 /*  5.  Single Post Details
 /*----------------------------------------*/
 /*-- Post Header --*/
-.post-header { padding: 30px 30px; background-size: cover; background-position: center right; background-repeat: no-repeat; /*-- Meta --*/ /*-- Title --*/ }
+.post-header { padding: 0px 0px; background-size: cover; background-position: center right; background-repeat: no-repeat; /*-- Meta --*/ /*-- Title --*/ }
 
 @media only screen and (max-width: 767px) { .post-header { padding-bottom: 40px; } }
 
@@ -2516,3 +2516,8 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
     padding: 5px 0;
   }
   /* shironam headline end */
+
+  /* New CSS */
+  .hero-section {
+      
+  }
