@@ -32,6 +32,12 @@
 
 <!-- Main Wrapper -->
 <div id="main-wrapper position-relative">
+
+    <!-- welcome message start -->
+    <div class="welcome-message" id="welcome-message" onclick="hideWelcomeOnclick()">
+        <img src="./img/welcome-img.jpg" alt="">
+    </div>
+    <!-- welcome message end -->
     
     <!-- Header Start -->
     <div class="header-section section">
@@ -84,7 +90,8 @@
 
                         <!-- Main Menu Start -->
                         <div class="main-menu d-none d-md-block">
-                            <nav>
+                            <img src="./img/logo.png" alt="" class="logo">
+                            <nav class="mt-2">
                                 <ul>
 
                                     <li class="active has-dropdown"><a href="index.html">জাতীয়</a>
@@ -167,8 +174,6 @@
                                             <li><a href="./category.html">Home Three</a></li>
                                         </ul><!-- Submenu End -->
                                     </li>
-                                    <li><a href="./category-saradesh.html">বাংলাদেশ</a></li>
-                                    <li><a href="./category.html">বঙ্গবন্ধু</a></li>
                                     <li class="has-dropdown"><a href="./category.html">আন্তর্জাতিক</a>
                                         
                                         <!-- Submenu Start -->
@@ -2819,42 +2824,78 @@
     <!-- Footer Top Section Start -->
     <div class="footer-top-section section bg-dark">
         <div class="container">
-            <p class="logo">
-                <img src="img/logo-white.png" alt="" class="img-fluid">
-            </p>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ফিচার ক্রোড়পত্র</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">বিশেষ সংখ্যা</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">বিনোদন</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">খেলাধুলা</a>
-                </li> 
-            </ul>
-            <ul class="list-unstyled social-icon mt-3">
-                <li>
-                    <a href="#"><i class="fab fa-facebook"></i> </a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-skype"></i></a>
-                </li>
-            </ul>
+            <div class="row justify-content-between">
+                <div class="col-lg-4 mb-4">
+                    <p class="logo">
+                        <img src="img/logo.png" alt="" class="img-fluid">
+                    </p>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">জাতীয়</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">রাজনীতি</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">খেলাধুলা</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> বিনোদন</a>
+                        </li>
+                    </ul>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">নীতিমালা</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">যোগাযোগ</a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled social-icon mt-3 ml-0">
+                        <li>
+                            <a href="#"><i class="fab fa-facebook"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-skype"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4 d-flex justify-content-lg-center align-items-end">
+                    <p class="text-white">স্বত্ব © ২০২০ বাংলা ম্যাপ</p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h4 class="text-white">যোগাযোগ:</h4>
+                    <p class="address text-white">
+                        House-25, Road-1,Block-A
+                        <br>
+                        Mirpur-6, Dhaka, Bangladesh
+                    </p>
+                    <p class="mail text-white">
+                        banglamap24@gmail.com(office)
+                        <br>
+                        banglamap24news@gmail.com(news)
+                    </p>
+                    <p class="contact text-white">
+                        (৮৮ - ০১৯৬৬-৬৮৭৬৪৬)
+                        <br>
+                        (+৮৮ ০১৮১৬-৪৯৫৮২৭)
+                    </p>
+                    <p class="text-white">
+                        প্রকাশক: অ্যাডভোকেট আনোয়ারুল ইসলাম
+                    </p>
+                </div>
+            </div>
         </div>
     </div><!-- Footer Top Section End -->
     
     <!-- Footer Bottom Section Start -->
-    <div class="footer-bottom-section section bg-dark pb-30">
+    <!-- <div class="footer-bottom-section section bg-dark pb-5">
         <div class="container">
             <div class="row">
                 
@@ -2864,9 +2905,17 @@
                 <div class="col-md-6 text-center text-white">
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
+                            <a class="mav-link px-2" href="#">জাগোকন্ঠ</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="mav-link px-2" href="#">নীতিমালা</a>
                         </li>
                         <li class="nav-item">
+                            <a class="mav-link px-2" href="#">বিজ্ঞাপন</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="mav-link px-2" href="#">সার্কুলেশন</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-3 text-right text-white">
@@ -2875,7 +2924,7 @@
                 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Footer Bottom Section End -->
     
     <!-- shironam headline start -->
@@ -2883,7 +2932,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="heading">
-                    সর্বশেষ:
+                    সর্বশেষ
                 </div>
                 <div class="news">
                     <marquee onmouseover="this.stop();" onmouseout="this.start();">

@@ -1,5 +1,3 @@
-(function ($) {
-    "use strict";
 /*--
     Menu Sticky
 -----------------------------------*/
@@ -376,5 +374,19 @@ videoPopup.magnificPopup({
     }
 });
     
-    
-})(jQuery);	
+// welcome message
+function hideWelcomeOnclick() {
+  document.getElementById("welcome-message").style.visibility = "hidden";
+}
+function showWelcome() {
+  setTimeout(function(){ 
+    document.getElementById("welcome-message").style.visibility = "visible";
+   }, 2000);
+}
+showWelcome();
+function hideWelcome() {
+  setTimeout(function(){ 
+    document.getElementById("welcome-message").style.visibility = "hidden";
+   }, 5000);
+}
+hideWelcome();

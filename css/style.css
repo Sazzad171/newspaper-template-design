@@ -68,7 +68,9 @@ ul { list-style: outside none none; margin: 0; padding: 0; }
 /*-- Container Width For Mobile Device --*/
 @media only screen and (max-width: 767px) { 
     .container { width: 450px; }
-
+    .welcome-message img {
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 479px) { .container { width: 100%; } }
@@ -796,9 +798,37 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 .mobile-logo a img { width: 55%; }
 
 /*-- Main Menu --*/
-.main-menu { /*-- Menu Style Two --*/ }
+.main-menu { 
+    width: 100%;
+ }
 
-.main-menu nav { float: left; }
+.main-menu nav { float: right;
+    margin-right: 36px; }
+.main-menu .logo {
+    width: 100px;
+    height: auto;
+}
+
+.footer-top-section .logo img {
+    width: 40%;
+}
+.welcome-message {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #00000061;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.welcome-message img {
+    width: 30%;
+    height: auto;
+}
 
 .main-menu nav > ul { float: left; }
 
@@ -850,6 +880,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 .mobile-menu { width: 100%; float: left; display: none; position: relative; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) { .mobile-menu { display: block; } }
+
 
 @media only screen and (max-width: 767px) {
     .footer-bottom-section {
@@ -2241,6 +2272,12 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 @media only screen and (max-width: 767px) { .footer-top-section { padding-left: 5px; padding-right: 5px; } }
 
+@media (max-width: 991px) {
+    .welcome-message img {
+        width: 50%;
+    }
+}
+
 /*-- Footer Widget --*/
 .footer-widget { padding: 0 35px; /*-- Title --*/ /*-- Content --*/ /*-- Footer Widget Post --*/ /*-- Footer Tweet --*/ }
 
@@ -2490,7 +2527,9 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
       #fullNavBar {
           height: 60px !important;
       }
-
+      .welcome-message img {
+        width: 80%;
+    }
 }
   /* corona update end */
 
